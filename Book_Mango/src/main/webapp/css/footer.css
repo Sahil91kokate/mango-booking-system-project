@@ -1,0 +1,12 @@
+ .footer{
+    text-align: center;
+    text-transform: capitalize;
+    background-color:antiquewhite;
+    padding: 5px;
+   display: flex;
+   position:fixed;
+   bottom:0% ;
+   width: 100%;
+   justify-content: center;
+  /*   margin-top:43%;*/
+}

@@ -1,0 +1,36 @@
+.container{
+
+    height:40vh;
+    width: 36vw;
+    background-color:linear-gradient(120deg, #ebb82e, #ad449b);
+    display: flex;
+    position: absolute;
+    border-radius: 18%;
+    top: 30%;
+    left: 33%;
+
+   
+}
+.ua{
+position: absolute;
+right: 41%;
+top: 20%;
+
+}
+.lt{
+    position: absolute;
+    right: 47%;
+    top: 40%;
+    
+
+}
+.da{
+    position: absolute;
+    right: 41%;
+    top: 67%;
+    background-color: red;
+
+}
+.bt-da{
+    background-color: red;
+}

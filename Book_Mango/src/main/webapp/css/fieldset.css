@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+ .field1{
+height:50%; 
+width: 14%;  
+background-color: antiquewhite;
+/* display: flex; */
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 25%;
+right: 44%;
+}
+
+.head{
+color:red ;
+display: flex;
+justify-content: center;
+height: 20%;
+height: 10%;
+position: absolute;
+height: 18;
+right: 42%;
+top: 10%;
+background-color:white ;
+}

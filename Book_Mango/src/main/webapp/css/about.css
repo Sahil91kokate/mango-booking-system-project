@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: antiquewhite;
+}
+.section{
+    min-height: 80vh;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(16, 15, 15);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #2fc1b4;
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.logo{
+    height: 70px;
+    cursor: pointer;
+}
+.footer{
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgba(250, 248, 246, 0.954);
+    padding: 15px;
+}
+.ft{
+    /* margin-top: 12%; */
+}
+/* about */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+}
+.content-section{
+    margin: 20px 120px 20px 20px;
+}
+.title{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.content p{
+    margin-right: 100px;
+    margin-top: 6px;
+}
+.img{
+    width: 400px;
+}
+.button{
+    margin-top: 10px;
+    border: 1px solid black;
+    background-color: #2fc1b4;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px;
+    display: inline-block;
+}
+.button a{
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    font-weight: 600;
+}
+.button:hover{
+    background-color: #2fc1b4;
+    border: 2px solid #2fc1b4;
+}
+.social{
+    margin-top: 20px;
+}
+.social i{
+    font-size: 20px;
+    padding: 0px 10px;
+    color: rgb(210, 74, 67);
+    justify-content: space-between;
+}
+.social i:hover{
+    color: black;
+}

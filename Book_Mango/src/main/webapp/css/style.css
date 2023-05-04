@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(m1/images.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.ban{
+	
+	 width: 100%;
+    height: 100vh;
+	 background-size: cover;
+    background-position: center;
+	  background:linear-gradient(rgba(0,0,0,0.35),rgba(0,0,0,0.35)),url(m1.jpg);
+	  
+	
+	
+	
+}
+/* .logo{
+    height: 70px;
+    cursor: pointer;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: rgb(0, 0, 255)0, 0, 255)0, 0, 255)    background: #2fc1b4;
+    position: absolute;
+    left: 0px;
+    bottom: -8px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}*/
+.btn{
+   position: absolute;
+    top: 50%;
+    margin-left: 37%;
+color: rgb(17, 99, 120);
+}
+.btn button {
+    width: 170px;
+    border: 1px solid rgb(42, 172, 184);
+    background-color: rgb(42, 172, 184);
+    padding: 10px;
+    color: #fff;
+    border-radius: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+.btn button:hover{
+    background-color: #2fc1b4;
+}
+.btn button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+.btn h1{
+    margin-left: -10%;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color:blue;
+}
+.btn p{
+    margin-right: 23%;
+    margin-left: -5%;
+    font-size: 12px;
+    margin-bottom: 15px;
+    color:blue;
+}
+ /*.footer{ 
+    text-align: center;
+    text-transform: capitalize;
+    background-color: rgba(250, 235, 215, 0.678);
+    padding: 10px;
+} */
